@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>Js web demo</title>
+  </head>
+  <body>
+    <h1 id="count">0</h1>
+    <button id="counter">Incre</button>
+    <script>
+      document.querySelector("#counter").onclick = function() {
+        var count = parseInt(document.querySelector("#count").innerHTML)
+        document.querySelector("#count").innerHTML = count + 1
+      }
+    </script>
+  </body>
+</html>
